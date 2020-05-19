@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1905DB312473569800164901 /* ChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1905DB302473569800164901 /* ChallengeScreen.swift */; };
 		1923C6BE246F95CE0021FA3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923C6BD246F95CE0021FA3C /* AppDelegate.swift */; };
 		1923C6C0246F95CE0021FA3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923C6BF246F95CE0021FA3C /* SceneDelegate.swift */; };
 		1923C6C2246F95CE0021FA3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923C6C1246F95CE0021FA3C /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1905DB302473569800164901 /* ChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen.swift; sourceTree = "<group>"; };
 		1923C6BA246F95CE0021FA3C /* OneMotionGrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMotionGrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1923C6BD246F95CE0021FA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1923C6BF246F95CE0021FA3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				1923C6BD246F95CE0021FA3C /* AppDelegate.swift */,
 				1923C6BF246F95CE0021FA3C /* SceneDelegate.swift */,
 				1923C6C1246F95CE0021FA3C /* ViewController.swift */,
-				1905DB302473569800164901 /* ChallengeScreen.swift */,
 				1923C6C3246F95CE0021FA3C /* Main.storyboard */,
 				1923C6C6246F95CE0021FA3C /* Assets.xcassets */,
 				1923C6C8246F95CE0021FA3C /* LaunchScreen.storyboard */,
@@ -144,7 +141,6 @@
 				1923C6C2246F95CE0021FA3C /* ViewController.swift in Sources */,
 				1923C6BE246F95CE0021FA3C /* AppDelegate.swift in Sources */,
 				1923C6C0246F95CE0021FA3C /* SceneDelegate.swift in Sources */,
-				1905DB312473569800164901 /* ChallengeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
