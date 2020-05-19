@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7339F24A2463C606008CE9B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F2492463C606008CE9B0 /* AppDelegate.swift */; };
+		7339F24C2463C606008CE9B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F24B2463C606008CE9B0 /* SceneDelegate.swift */; };
+		7339F24E2463C606008CE9B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F24D2463C606008CE9B0 /* ContentView.swift */; };
+		7339F2502463C608008CE9B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7339F24F2463C608008CE9B0 /* Assets.xcassets */; };
+		7339F2532463C608008CE9B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7339F2522463C608008CE9B0 /* Preview Assets.xcassets */; };
+		7339F2562463C608008CE9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7339F2542463C608008CE9B0 /* LaunchScreen.storyboard */; };
+		7339F2612463C608008CE9B0 /* OneMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F2602463C608008CE9B0 /* OneMotionTests.swift */; };
+		7339F26C2463C608008CE9B0 /* OneMotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F26B2463C608008CE9B0 /* OneMotionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7339F25D2463C608008CE9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7339F23E2463C606008CE9B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7339F2452463C606008CE9B0;
+			remoteInfo = OneMotion;
+		};
+		7339F2682463C608008CE9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7339F23E2463C606008CE9B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7339F2452463C606008CE9B0;
+			remoteInfo = OneMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7339F2462463C606008CE9B0 /* OneMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7339F2492463C606008CE9B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7339F24B2463C606008CE9B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7339F24D2463C606008CE9B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7339F24F2463C608008CE9B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7339F2522463C608008CE9B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7339F2552463C608008CE9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7339F2572463C608008CE9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7339F25C2463C608008CE9B0 /* OneMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7339F2602463C608008CE9B0 /* OneMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMotionTests.swift; sourceTree = "<group>"; };
+		7339F2622463C608008CE9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7339F2672463C608008CE9B0 /* OneMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7339F26B2463C608008CE9B0 /* OneMotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMotionUITests.swift; sourceTree = "<group>"; };
+		7339F26D2463C608008CE9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7339F2432463C606008CE9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7339F2592463C608008CE9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7339F2642463C608008CE9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7339F23D2463C606008CE9B0 = {
+			isa = PBXGroup;
+			children = (
+				7339F2482463C606008CE9B0 /* OneMotion */,
+				7339F25F2463C608008CE9B0 /* OneMotionTests */,
+				7339F26A2463C608008CE9B0 /* OneMotionUITests */,
+				7339F2472463C606008CE9B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7339F2472463C606008CE9B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7339F2462463C606008CE9B0 /* OneMotion.app */,
+				7339F25C2463C608008CE9B0 /* OneMotionTests.xctest */,
+				7339F2672463C608008CE9B0 /* OneMotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7339F2482463C606008CE9B0 /* OneMotion */ = {
+			isa = PBXGroup;
+			children = (
+				7339F2492463C606008CE9B0 /* AppDelegate.swift */,
+				7339F24B2463C606008CE9B0 /* SceneDelegate.swift */,
+				7339F24D2463C606008CE9B0 /* ContentView.swift */,
+				7339F24F2463C608008CE9B0 /* Assets.xcassets */,
+				7339F2542463C608008CE9B0 /* LaunchScreen.storyboard */,
+				7339F2572463C608008CE9B0 /* Info.plist */,
+				7339F2512463C608008CE9B0 /* Preview Content */,
+			);
+			path = OneMotion;
+			sourceTree = "<group>";
+		};
+		7339F2512463C608008CE9B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7339F2522463C608008CE9B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7339F25F2463C608008CE9B0 /* OneMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7339F2602463C608008CE9B0 /* OneMotionTests.swift */,
+				7339F2622463C608008CE9B0 /* Info.plist */,
+			);
+			path = OneMotionTests;
+			sourceTree = "<group>";
+		};
+		7339F26A2463C608008CE9B0 /* OneMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7339F26B2463C608008CE9B0 /* OneMotionUITests.swift */,
+				7339F26D2463C608008CE9B0 /* Info.plist */,
+			);
+			path = OneMotionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7339F2452463C606008CE9B0 /* OneMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7339F2702463C608008CE9B0 /* Build configuration list for PBXNativeTarget "OneMotion" */;
+			buildPhases = (
+				7339F2422463C606008CE9B0 /* Sources */,
+				7339F2432463C606008CE9B0 /* Frameworks */,
+				7339F2442463C606008CE9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneMotion;
+			productName = OneMotion;
+			productReference = 7339F2462463C606008CE9B0 /* OneMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7339F25B2463C608008CE9B0 /* OneMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7339F2732463C608008CE9B0 /* Build configuration list for PBXNativeTarget "OneMotionTests" */;
+			buildPhases = (
+				7339F2582463C608008CE9B0 /* Sources */,
+				7339F2592463C608008CE9B0 /* Frameworks */,
+				7339F25A2463C608008CE9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7339F25E2463C608008CE9B0 /* PBXTargetDependency */,
+			);
+			name = OneMotionTests;
+			productName = OneMotionTests;
+			productReference = 7339F25C2463C608008CE9B0 /* OneMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7339F2662463C608008CE9B0 /* OneMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7339F2762463C608008CE9B0 /* Build configuration list for PBXNativeTarget "OneMotionUITests" */;
+			buildPhases = (
+				7339F2632463C608008CE9B0 /* Sources */,
+				7339F2642463C608008CE9B0 /* Frameworks */,
+				7339F2652463C608008CE9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7339F2692463C608008CE9B0 /* PBXTargetDependency */,
+			);
+			name = OneMotionUITests;
+			productName = OneMotionUITests;
+			productReference = 7339F2672463C608008CE9B0 /* OneMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7339F23E2463C606008CE9B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jason Vainikolo";
+				TargetAttributes = {
+					7339F2452463C606008CE9B0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7339F25B2463C608008CE9B0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7339F2452463C606008CE9B0;
+					};
+					7339F2662463C608008CE9B0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7339F2452463C606008CE9B0;
+					};
+				};
+			};
+			buildConfigurationList = 7339F2412463C606008CE9B0 /* Build configuration list for PBXProject "OneMotion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7339F23D2463C606008CE9B0;
+			productRefGroup = 7339F2472463C606008CE9B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7339F2452463C606008CE9B0 /* OneMotion */,
+				7339F25B2463C608008CE9B0 /* OneMotionTests */,
+				7339F2662463C608008CE9B0 /* OneMotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7339F2442463C606008CE9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7339F2562463C608008CE9B0 /* LaunchScreen.storyboard in Resources */,
+				7339F2532463C608008CE9B0 /* Preview Assets.xcassets in Resources */,
+				7339F2502463C608008CE9B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7339F25A2463C608008CE9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7339F2652463C608008CE9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7339F2422463C606008CE9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7339F24A2463C606008CE9B0 /* AppDelegate.swift in Sources */,
+				7339F24C2463C606008CE9B0 /* SceneDelegate.swift in Sources */,
+				7339F24E2463C606008CE9B0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7339F2582463C608008CE9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7339F2612463C608008CE9B0 /* OneMotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7339F2632463C608008CE9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7339F26C2463C608008CE9B0 /* OneMotionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7339F25E2463C608008CE9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7339F2452463C606008CE9B0 /* OneMotion */;
+			targetProxy = 7339F25D2463C608008CE9B0 /* PBXContainerItemProxy */;
+		};
+		7339F2692463C608008CE9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7339F2452463C606008CE9B0 /* OneMotion */;
+			targetProxy = 7339F2682463C608008CE9B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7339F2542463C608008CE9B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7339F2552463C608008CE9B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7339F26E2463C608008CE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7339F26F2463C608008CE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7339F2712463C608008CE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OneMotion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OneMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUT.OneMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7339F2722463C608008CE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OneMotion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OneMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUT.OneMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7339F2742463C608008CE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneMotionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUT.OneMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMotion.app/OneMotion";
+			};
+			name = Debug;
+		};
+		7339F2752463C608008CE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneMotionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUT.OneMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMotion.app/OneMotion";
+			};
+			name = Release;
+		};
+		7339F2772463C608008CE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUT.OneMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneMotion;
+			};
+			name = Debug;
+		};
+		7339F2782463C608008CE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUT.OneMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneMotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7339F2412463C606008CE9B0 /* Build configuration list for PBXProject "OneMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7339F26E2463C608008CE9B0 /* Debug */,
+				7339F26F2463C608008CE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7339F2702463C608008CE9B0 /* Build configuration list for PBXNativeTarget "OneMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7339F2712463C608008CE9B0 /* Debug */,
+				7339F2722463C608008CE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7339F2732463C608008CE9B0 /* Build configuration list for PBXNativeTarget "OneMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7339F2742463C608008CE9B0 /* Debug */,
+				7339F2752463C608008CE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7339F2762463C608008CE9B0 /* Build configuration list for PBXNativeTarget "OneMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7339F2772463C608008CE9B0 /* Debug */,
+				7339F2782463C608008CE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7339F23E2463C606008CE9B0 /* Project object */;
+}
